@@ -1,0 +1,85 @@
+.holder {
+    max-height:200vh;
+    display: flex;
+    align-items: center;
+}
+.card{
+    margin: 15rem 0rem;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    justify-content: end;
+    flex-basis: auto;
+}
+
+.time,
+.day-date {
+    text-align: center;
+}
+
+.day-date {
+    font-size: smaller;
+    color: gray;
+}
+
+.time {
+    font-size: xx-large;
+}
+
+.form-check-input:checked {
+    background-color: lime;
+    border-color: lime;
+}
+
+.form-check-input[type="checkbox"] {
+    border-radius: 1.25em;
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa-regular,
+.far {
+    color: red;
+}
+
+.middle {
+    display: flex;
+    align-items: center;
+}
+
+.fa-solid,
+.fas {
+    font-weight: 900;
+    background-color: white;
+    color: blue;
+}
+
+.p-3 {
+    display: flex;
+    justify-content: left;
+}
+
+.todo-item {
+    color: blue;
+    background-color: white;
+    border: none;
+}
+
+.item-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.dash {
+    text-decoration: line-through;
+    color: grey;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
