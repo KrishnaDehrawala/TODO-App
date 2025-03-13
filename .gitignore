@@ -1,1 +1,11 @@
+# Ignore configuration files
+config.json
+secrets.env
 
+# Ignore log files
+logs/
+*.log
+
+# Ignore build files
+bin/
+obj/
